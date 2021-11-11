@@ -32,7 +32,7 @@ switch (randomNumber) {
   case 6:
     eightBall = 'Outlook not so good';
     break;
-    case 7:
+  case 7:
     eightBall = 'Signs point to yes';
     break;
 }
