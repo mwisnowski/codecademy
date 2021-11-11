@@ -37,4 +37,4 @@ switch (randomNumber) {
     break;
 }
 
-console.log(`The eight ball answered: ${eightBall}`);
+console.log(`The eight ball answered: ${eightBall}`);a
