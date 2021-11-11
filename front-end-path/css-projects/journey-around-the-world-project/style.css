@@ -140,7 +140,7 @@ img {
 
 /* Site Footer */
 .footer {
-  background-color: #333333;
+  background-color: #637574;
   color: #FFFFFF;
   padding: 30px;
   text-align: center;
@@ -200,7 +200,7 @@ textarea {
 /* 6. Page Styles
 ======================================== */
 .photo-hero {
-  background-color: #888888;
+  background-color: #A3C2BF;
   min-height: 700px;
 }
 .photo-hero-text {
@@ -211,7 +211,7 @@ textarea {
   margin: 1em 0 40px;;
 }
 .photo-hero h1 span {
-  color: #333333;
+  color: #3F7571;
 }
 .photo-hero p {
   color: #FFFFFF;
@@ -236,10 +236,11 @@ textarea {
   height: auto;
 }
 .photo-blockquote {
-  background-color: #999999;
+  background-color: #A3C2BF;
   margin-top: -80px;
   padding-bottom: 80px;
 }
+
 blockquote p {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 24px;
@@ -271,7 +272,7 @@ blockquote footer {
   padding: 80px 0;
 }
 .photo-about h2 {
-  color: #888888;
+  color: #3F7571;
   margin-bottom: 30px;
 }
 .photo-about p {
@@ -280,7 +281,7 @@ blockquote footer {
   text-align: left;
 }
 .photo-contact {
-  background-color: #555555;
+  background-color: #3F7571;
 }
 .photo-contact h2 {
   color: #FFFFFF;
