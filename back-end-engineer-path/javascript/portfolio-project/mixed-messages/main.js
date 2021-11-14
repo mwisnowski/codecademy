@@ -19,17 +19,17 @@ const punkArtist = [
 //console.log(punkArtist.join('\n'));
 
 // create array of totally true and not at all fictitious facts (17 choices)
-const funFact = [
+const facts = [
   'has been active since',
   'has been inactive since',
   'released a ska song in',
   'released a noise EP in',
-  'released a post-hardcore midwest-emo farmer concept album in',
+  'released a post-hardcore, midwest-emo, farmer concept album in',
   'was headliner for Vans Warped Tour in',
   'was banned from Warped Tour in',
   'formed after playing Tony Hawk\'s Pro Skater in',
   'released their first single in',
-  'released the Nickelodeon Kids\' Choice Awards Album of the Year in',
+  'won the Nickelodeon Kids\' Choice Award for Favorite Music Group in',
   'has been a guest artist on every Pop Punk single since',
   'released their most well-known song in',
   'sold out in',
@@ -39,8 +39,8 @@ const funFact = [
   'didn\'t know they had a bassist until',
 ];
 
-// test funFact array list
-console.log(funFact.join('\n'));
+// test facts array list
+//console.log(facts.join('\n'));
 
 // create of years from 1984 - 2021 (37 total)
 const year = [];
@@ -50,3 +50,22 @@ for (var i = 1984; i <= 2021; i++) {
 };
 // test year array function
 //console.log(year.join('\n'));
+
+// actual function start
+
+function funFact() {
+  //create random number from input array
+  function rng(array) {
+    return Math.floor(Math.random() * array.length);
+  };
+  //setup rng indexes
+  let artist = punkArtist[rng(punkArtist)];
+  let fact = facts[rng(facts)];
+  let when = year[rng(year)];
+
+  //put the final string together
+  let factString = `${artist} ${fact} ${when}`;
+  return ((`${factString}!`));
+};
+
+document.write(funFact());
