@@ -6,7 +6,7 @@ earlyYears = earlyYears * 10.5
 var laterYears = myAge - 2
 //This is my age minus 2
 laterYears = laterYears * 4
-console.log(earlyYears);
+console.log(earlyYears;
 console.log(laterYears);
 var myAgeInDogYears = earlyYears + laterYears
 myName = 'Matt'.toLowerCase();
