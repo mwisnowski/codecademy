@@ -1,1 +1,41 @@
 Plan and design for Mixed Messages
+
+- Create a random text generator that spurts out questionable punk music trivia:
+- Start each with "Fun fact:"
+- Randomly choose an artist from one of fourteen:
+    Green Day
+    We Are the Union
+    The Offspring
+    Catbite
+    Travis Barker
+    Beach Bunny
+    Vial
+    Avril Lavigne
+    Kill Lincoln
+    Poppy
+    Goldfinger
+    Millencolin
+    Meet Me @ the Alter
+    Paramore
+- Randomly choose action from one of fourteen:
+    has been active since
+    released a ska song in
+    has been inactive since
+    was on the headliner stage for Warped Tour in
+    was banned from Warped Tour in
+    formed after playing Tony Hawk's Pro Skater in
+    released their first single in
+    has been on every pop punk single since
+    released the album of the year for
+    toured with [one of above bands] in
+    released their most well known song in
+    was accused of selling out in
+    manned their own merch table until
+    wanted to do a vinyl pressing in
+- Randomly choose year between 1984 and 2021 (37 year options)
+
+How to do:
+- Create an array per choice
+- Use Math.floor(Math.random * [array length]) to create a random number to pull from the array
+- setup secondary array for randomly generated answers and queue up a string
+- return concatenation of all strings
