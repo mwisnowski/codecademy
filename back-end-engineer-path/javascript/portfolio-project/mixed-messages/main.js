@@ -65,7 +65,5 @@ function funFact() {
 
   //put the final string together
   let factString = `${artist} ${fact} ${when}`;
-  return ((`${factString}!`));
+  alert (`${factString}!`);
 };
-
-document.write(funFact());
