@@ -1,0 +1,42 @@
+Plan and design for Mixed Messages 2
+
+- Create a random text generator that will create a song as follows:
+- Randomly choose a genre (10 options)
+    Rock
+    Pop
+    Metal
+    Jazz
+    Punk
+    Electronic
+    Country
+    Blues
+    Hip Hop
+    R&B
+` Randomly choose a key (17 options):
+    Ab
+    A
+    A#
+    Bb
+    B
+    C
+    C#
+    Db
+    D
+    D#
+    Eb
+    E
+    F
+    F#
+    Gb
+    G
+    G#
+- Decide whether it's major or minor
+- Choose the chords (from II-VII)
+- Decide whether the third chord will be a 7 chord or not
+- Choose a tempo between 90 and 180 at increments of 3bpm
+
+How to do:
+- Create an array per choice
+- Use Math.floor(Math.random * [array length]) to create a random number to pull from the array
+- setup secondary array for randomly generated answers and queue up a string
+- return concatenation of all strings

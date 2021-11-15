@@ -24,7 +24,7 @@ const facts = [
   'has been inactive since',
   'released a ska song in',
   'released a noise EP in',
-  'released a post-hardcore, midwest-emo, farmer concept album in',
+  'released an accoustic song in',
   'was headliner for Vans Warped Tour in',
   'was banned from Warped Tour in',
   'formed after playing Tony Hawk\'s Pro Skater in',
