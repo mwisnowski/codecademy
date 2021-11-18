@@ -82,6 +82,12 @@ for (var i = 90; i <= 180; i += 3) {
    tempo.push(i);
 };
 
+const timeFlux = [
+  'Let\'s make this one standard time',
+  'Let\'s speed things up and give it a double time feel!',
+  'Let\'s slow it down and give it a double time feel.'
+]
+
 // test year array function
 //console.log(tempo.join('\n'));
 
@@ -143,8 +149,15 @@ function makeAnRNGSong() {
 
   let seven = isSeven[rng(isSeven)];
   let speed = tempo[rng(tempo)];
+  let timeFluct = timeFlux[rng(timeFlux)];
 
   //put the final string together
-  let makeASong = `Let's make a ${genre} song in the key of ${key}${majMin}, with a tempo of ${speed}BPM.\nWe'll use the the following chords:\n${chordOne}\n${chordTwo}\n${chordThree}${seven}\n${chordFour}`;
+  let makeASong = `Let's make a ${genre} song in the key of ${key}${majMin}, with a tempo of ${speed} BPM.\n`
+  + `We'll use the the following chords:\n`
+  + `${chordOne}\n`
+  + `${chordTwo}\n`
+  + `${chordThree}${seven}\n`
+  + `${chordFour}\n`
+  + `${timeFluct}`;
   alert (`${makeASong}`);
 };
